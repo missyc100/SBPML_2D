@@ -29,7 +29,7 @@ The main program in the DRM folder is main.m
 5. Export the INP file from CAE and copy the corresponding named sets to '\Generate matching layer parameters with one click\input' path
 6. Modify line 120 (matching layer number) and line 152 (number of materials) in \Generate matching layer parameters with one click\main1.m. In this tutorial, there are 2 materials
 7. Run main1.m
-8. Create a 'read' folder in the CAE file directory, copy all files from output3 (generated in step 7) to the read folder
+8. Create a 'read' folder in the CAE file directory, copy output1/element_set1.txt,output1/element_set2.txt and all files from output3 (generated in step 7) to the read folder
 9. Modify the INP file exported in step 5:
    (1) Delete element connectivity in PART1
    (2) Copy the UEL definition format to the appropriate position (refer to line 813 in Job-PML.inp)

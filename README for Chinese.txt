@@ -26,7 +26,7 @@ m2			材料2的CPE4单元集合
 5、在cae中输出INP文件，将对应名称的集合复制到	'\Generate matching layer parameters with one click\input'	路径中
 6、修改\Generate matching layer parameters with one click\main1.m中120行匹配层层数,152行材料数目, 教程中是2种材料
 7、运行main1.m
-8、在cae文件所在目录创建read文件夹，将第7步中输出的output3中的所有文件复制到read文件夹
+8、在cae文件所在目录创建read文件夹，将第7步中输出的output1/element_set1.txt,output1/element_set2.txt和output3中的所有文件复制到read文件夹
 9、修改第5步输出的INP文件
 	具体步骤是	(1) 删除PART1中的单元连通性
 			(2) 将UEL定义的格式复制到相应位置（参阅Job-PML.inp   813行）
